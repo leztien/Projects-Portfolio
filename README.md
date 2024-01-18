@@ -8,4 +8,4 @@ For now here are the links to my older mini projects:
 
 - [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
 - [Fuzzy Magic (web app for fuzzy matching)](http://www.fuzzymagic.eu/) and [repo with the code](https://github.com/leztien/FuzzyMagic)
-- [github repos](https://github.com/leztien)
+- [my selected github repos for demonstration purposes](https://github.com/leztien)
