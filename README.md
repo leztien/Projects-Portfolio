@@ -10,4 +10,5 @@ For now here are the links to my older mini projects:
 - [FuzzyMagic (web app for fuzzy matching)](http://www.fuzzymagic.eu/) and the [web app code](https://github.com/leztien/FuzzyMagic)
 - [Python package to identify similar entries in spreadsheets](https://github.com/leztien/FuzzyMagic/tree/main/fuzzyspreadsheets)
 - [Dashboard app (made with plotly-dash)](https://github.com/leztien/plotly-dashboard)
-- [my selected github repos for demonstration purposes](https://github.com/leztien)
+- [My Machine Learning algorithms written from scratch](https://github.com/leztien/machine_learning_algorithms)
+- [my other github repos for demonstration purposes](https://github.com/leztien)
