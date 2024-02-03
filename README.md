@@ -17,5 +17,5 @@ For now here are the links to my older mini projects:
 
 ### Miscellaneous
 - [My Machine Learning algorithms written from scratch](https://github.com/leztien/machine_learning_algorithms)
-- [my other github repos for demonstration purposes](https://github.com/leztien)
+- [My other github repos for demonstration purposes](https://github.com/leztien)
 - [Codewars profile](https://www.codewars.com/users/leztien)
