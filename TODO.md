@@ -20,7 +20,17 @@ https://www.kaggle.com/code/vad13irt/uci-ml-mushrooms-classification
 ### German credit data:
 https://www.interviewquery.com/p/classification-projects
 
+https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+
 https://www.kaggle.com/code/janiobachmann/german-credit-analysis-a-risk-perspective
+
+
+### Spambase
+https://archive.ics.uci.edu/dataset/94/spambase
+
+https://www.kaggle.com/code/sachinsharma1123/spambase-classifier-acc-95
+
+
 
 
 
