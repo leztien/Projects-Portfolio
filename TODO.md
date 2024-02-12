@@ -13,11 +13,13 @@ Project 5: An advanced topic (NLP, Computer Vision, Deep Neural Nets) - These pr
 
 ### Mushrooms
 https://archive.ics.uci.edu/dataset/73/mushroom
+
 https://www.kaggle.com/code/vad13irt/uci-ml-mushrooms-classification
 
 
 ### German credit data:
 https://www.interviewquery.com/p/classification-projects
+
 https://www.kaggle.com/code/janiobachmann/german-credit-analysis-a-risk-perspective
 
 
