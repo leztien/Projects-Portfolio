@@ -1,4 +1,5 @@
-Portfolio Projects:
+# Portfolio Projects:
+
 Project 1: Exploratory data analysis (EDA) - This shows that you can clearly tell a story with your data. It also shows that you can collect, clean, and perform feature engineering. I recommend scraping your data or collecting it from an open api.
 
 Project 2: Classification problem - With these projects you are predicting a binary or categorical outcome. An example would be the titanic dataset where you predict if people would have survived the crash. 
