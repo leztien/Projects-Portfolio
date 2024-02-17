@@ -9,6 +9,7 @@ For now here are the links to my older mini projects:
 ### Jupyter notebooks: 
 - [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
 - [Linear Regression](https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction)
+- [Classification](https://github.com/leztien/portfolio-project-classification-for-german-credit-database)
 
 ### App and Web Development
 - [FuzzyMagic (web app for fuzzy matching)](http://www.fuzzymagic.eu/) and the [web app code](https://github.com/leztien/FuzzyMagic)
