@@ -135,13 +135,29 @@ Notes:
 2. Measure and compare their performance.  
     - For each model, use N-fold cross-validation and compute the mean and standard deviation of their performance. 
 3. Analyze the most significant variables for each algorithm.  
-4. Analyze the types of errors the models make.  
-    - What data would a human have used to avoid these errors?  
+4. Analyze the types of errors the models make (What data would a human have used to avoid these errors?)
 5. Have a quick round of feature selection and engineering.  
-6. Have one or two more quick iterations of the five previous steps.  
-7. Short-list the top three to five most promising models, preferring models that make different types of errors.  
+6. Have one or two more quick iterations of the five previous steps.
 
-# Fine-Tune the System  
+
+# Error Analysis
+After evaluating the model, conduct error analysis to understand where and why the model is making mistakes.
+This step involves examining the errors made by the model on the validation or test data.
+
+Steps in Error Analysis:
+- Collecting Errors: Gather a sample of instances where the model's predictions were incorrect.
+- Error Categories: Categorize errors into types (e.g., false positives, false negatives).
+- Feature Analysis: Analyze features of instances where errors were made. Look for patterns.
+- Confusion Matrix: Create a confusion matrix to see the overall performance across classes.
+- Precision-Recall Curves: Plot these curves to understand precision and recall trade-offs.
+- Error Rates by Subgroup: Analyze error rates across different subgroups, if applicable.
+- Sample Analysis: Look at individual examples to understand specific instances of errors.
+
+Short-list the top three to five most promising models, preferring models that make different types of errors.  
+
+
+
+# Fine-Tune the System / Model Improvement 
 Notes:  
 - You will want to use as much data as possible for this step, especially as you move toward the end of fine-tuning.   
 - As always automate what you can.    
@@ -151,13 +167,14 @@ Notes:
     - Unless there are very few hyperparameter values to explore, prefer random search over grid search. If training is very long, you may prefer a Bayesian optimization approach (e.g., using a Gaussian process priors, as described by Jasper Snoek, Hugo Larochelle, and Ryan Adams ([https://goo.gl/PEFfGr](https://goo.gl/PEFfGr)))  
 2. Try Ensemble methods. Combining your best models will often perform better than running them individually.
     - first unite your classifiers into a soft voting classifier, and then do threshold optimisation for your metric (e.g.f1)
-4. Calibrate probabilities (for classification with probabilities)
+3. Calibrate probabilities (for classification with probabilities)
     - https://scikit-learn.org/stable/modules/calibration.html
     - https://chat.openai.com/share/f7b91fab-cca8-49ea-af44-9f2f469f9d9f
-5. Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
+4. Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
+5. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set.
 
-> Don't tweak your model after measuring the generalization error: you would just start overfitting the test set.  
-  
+
+
 # Present your solution  
 1. Document what you have done.  
 2. Create a nice presentation.  
