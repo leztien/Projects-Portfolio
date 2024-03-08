@@ -150,7 +150,8 @@ Notes:
     - Treat your data transformation choices as hyperparameters, especially when you are not sure about them (e.g., should I replace missing values with zero or the median value? Or just drop the rows?).  
     - Unless there are very few hyperparameter values to explore, prefer random search over grid search. If training is very long, you may prefer a Bayesian optimization approach (e.g., using a Gaussian process priors, as described by Jasper Snoek, Hugo Larochelle, and Ryan Adams ([https://goo.gl/PEFfGr](https://goo.gl/PEFfGr)))  
 2. Try Ensemble methods. Combining your best models will often perform better than running them individually.
-3. Calibrate probabilities (for classification with probabilities)
+    - first unite your classifiers into a soft voting classifier, and then do threshold optimisation for your metric (e.g.f1)
+4. Calibrate probabilities (for classification with probabilities)
     - https://scikit-learn.org/stable/modules/calibration.html
     - https://chat.openai.com/share/f7b91fab-cca8-49ea-af44-9f2f469f9d9f
 5. Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
