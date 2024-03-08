@@ -1,4 +1,5 @@
-# Project Checklist (based on [Aurélien Géron's](www.google.com) checklist)
+# Project Checklist 
+(based on (Aurélien Géron's)[https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md] checklist)
 
 
 ## The usual "shell preparations":
