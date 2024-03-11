@@ -78,11 +78,12 @@ Note: automate as much as possible so you can easily get fresh data.
 4. Check legal obligations, and get the authorization if necessary.  
 5. Get access authorizations.  
 6. Create a workspace (with enough storage space).  
-7. Get the data.  
-8. Convert the data to a format you can easily manipulate (without changing the data itself).  
-9. Ensure sensitive information is deleted or protected (e.g., anonymized). 
-10. Check the size and type of data (time series, sample, geographical, etc.).  
-11. Sample a test set, put it aside, and never look at it (no data snooping!).    
+7. Get the data.
+8. Make a custom 'get_data' or 'fetch_data' function.
+9. Convert the data to a format you can easily manipulate (without changing the data itself).  
+10. Ensure sensitive information is deleted or protected (e.g., anonymized). 
+11. Check the size and type of data (time series, sample, geographical, etc.).  
+12. Sample a test set, put it aside, and never look at it (no data snooping!).    
 
 # Explore the data  
 Note: try to get insights from a field expert for these steps.  
