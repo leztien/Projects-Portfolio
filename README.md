@@ -1,12 +1,6 @@
 # Data Science Projects Portfolio
-my portfolio of data science projects for a potential employer
 
-<br>
-
-At the moemnt I'm transferring my portfolio projects into this folder, so it is mostly empty.
-For now here are the links to my older mini projects:
-
-### Jupyter notebooks:
+### Jupyter notebooks with EDA and ML modeling:
 - [Classification](https://github.com/leztien/portfolio-project-classification-for-german-credit-database)
 - [Linear Regression](https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction)
 - [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
