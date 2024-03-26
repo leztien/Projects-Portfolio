@@ -6,10 +6,11 @@ my portfolio of data science projects for a potential employer
 At the moemnt I'm transferring my portfolio projects into this folder, so it is mostly empty.
 For now here are the links to my older mini projects:
 
-### Jupyter notebooks: 
-- [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
-- [Linear Regression](https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction)
+### Jupyter notebooks:
 - [Classification](https://github.com/leztien/portfolio-project-classification-for-german-credit-database)
+- [Linear Regression](https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction)
+- [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
+
 
 ### App and Web Development
 - [FuzzyMagic (web app for fuzzy matching)](http://www.fuzzymagic.eu/) and the [web app code](https://github.com/leztien/FuzzyMagic)
