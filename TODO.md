@@ -43,4 +43,8 @@ https://www.interviewquery.com/p/python-data-science-projects-with-source-code
 https://www.interviewquery.com/p/machine-learning-projects
 
 
+### Linear Regression (other exotic algorithms):
+https://scikit-learn.org/stable/modules/classes.html#regressors-with-variable-selection
+
+
 
