@@ -10,6 +10,9 @@ Project 4: A clustering problem - With this we use algorithms to understand whic
 
 Project 5: An advanced topic (NLP, Computer Vision, Deep Neural Nets) - These projects allow you to specialize and show off your skills!
 
+Project 6 (TODO next): classification with tree-based algorithms
+https://archive.ics.uci.edu/dataset/222/bank+marketing
+
 
 ### Mushrooms
 https://archive.ics.uci.edu/dataset/73/mushroom
