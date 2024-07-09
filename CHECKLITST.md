@@ -4,24 +4,35 @@
 
 ## The usual "shell preparations":
 ```shell
-# getting started
-$ git init myrepo
-$ cd myrepo
-$ git branch -M main
+# setting up git
+$ sudo apt update; sudo apt install git
+$ git config --global user.name "My Name"
+$ git config --global user.email "email@mail.com"
+
+# setting up a repo
+$ mkdir project
+$ cd project
+$ git init
+$ git branch -m main  # -m is ALMOST the same as -M
+$ touch .gitignore; echo -e "*.log\n.venv/" > .gitignore
 $ mkdir data src assets
 $ touch README.md requirements.txt
-$ echo "# todo" > README.md
+$ echo "# Project" > README.md
 $ vim requirements.txt
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
-$ git add README.md requirements.txt
-$ git commit -m “my first commit”
+$ git add .  # do not do this!
+$ git reset  # and then do it the proper way
+$ git add README.md requirements.txt .gitignore
+$ git commit -m "my first commit"
 
 # create a new repo on GitHub; generate a token
-$ git remote add origin https://github.com/leztien/myrepo.git
-$ git pull origin main --rebase  #??
-$ git push --set-upstream origin 
+$ git branch -M main  # if you haven't renamed it before
+$ git remote add origin https://github.com/leztien/project.git  #if HTTPS and token
+$ git remote add origin git@github.com:leztien/project.git  #if SSH
+$ git push -u origin main  # -u == --set-upstream
+$ git push -u -f origin master  # if the above doesn't work
 $ code .
 
 # routine commits
