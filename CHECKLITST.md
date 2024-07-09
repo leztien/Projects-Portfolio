@@ -10,6 +10,7 @@ $ git config --global user.name "My Name"
 $ git config --global user.email "email@mail.com"
 
 # setting up a repo
+$ cd Projects
 $ mkdir project
 $ cd project
 $ git init
@@ -19,15 +20,19 @@ $ mkdir data src assets
 $ touch README.md requirements.txt
 $ echo "# Project" > README.md
 $ vim requirements.txt
+$ cat requirements.txt
+
+# setting up an environment
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
+$ pip list
 $ git add .  # do not do this!
-$ git reset  # and then do it the proper way
+$ git reset  # unstage all files
 $ git add README.md requirements.txt .gitignore
 $ git commit -m "my first commit"
 
-# create a new repo on GitHub; generate a token
+# create a new repo on GitHub
 $ git branch -M main  # if you haven't renamed it before
 $ git remote add origin https://github.com/leztien/project.git  #if HTTPS and token
 $ git remote add origin git@github.com:leztien/project.git  #if SSH
