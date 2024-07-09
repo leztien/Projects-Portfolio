@@ -6,7 +6,7 @@
 - [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
 
 
-### App and Web Development
+### Complete Projects
 - [FuzzyMagic (web app for fuzzy matching)](http://www.fuzzymagic.eu/) and the [web app code](https://github.com/leztien/FuzzyMagic)
 - [Python package to identify similar entries in spreadsheets](https://github.com/leztien/FuzzyMagic/tree/main/fuzzyspreadsheets)
 - [Dashboard app (made with plotly-dash)](https://github.com/leztien/plotly-dashboard)
