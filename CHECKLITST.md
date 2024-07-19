@@ -65,7 +65,7 @@ II.  Get the data.
 III. Explore the data to gain insights.  
 IV.  Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
 V.   Explore many different models and short-list the best ones.  
-V b. Error Analysis
+V b. Error Analysis. 
 VI.  Fine-tune your models and combine them into a great solution.  
 VII. Present your solution.  
 IIX. Launch, monitor, and maintain your system.  
