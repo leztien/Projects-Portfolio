@@ -63,6 +63,7 @@ $ uvicorn main:app --reload
 I.   Frame the problem and look at the big picture.  
 II.  Get the data.  
 III. Explore the data to gain insights.  
+XXX. Baseline model (here or after the next step)
 IV.  Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
 V.   Explore many different models and short-list the best ones.  
 V(b) Error Analysis. <br>
@@ -111,22 +112,28 @@ IIX. Launch, monitor, and maintain your system.
 Note: try to get insights from a field expert for these steps.  
 
 1. Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
-2. Create a Jupyter notebook to keep record of your data exploration.  
-3. Study each attribute and its characteristics:  
-    - Name  
+2. Create a Jupyter notebook to keep record of your data exploration.
+3. For supervised learning tasks, identify the target attribute(s).
+4. Study each attribute and its characteristics:  
+    - Unique values bzw df.describe() - if continuous  
     - Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
     - % of missing values  
     - Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
+    - Outlier analysis
     - Possibly useful for the task?  
     - Type of distribution (Gaussian, uniform, logarithmic, etc.)
-4. For supervised learning tasks, identify the target attribute(s).
-5. Visualize the data.  
-6. Study the correlations between attributes.  
+5. Visualize the data.
+    - Bar charts for categorical features  
+6. Study the correlations between attributes. (and with the target?)  
 7. Study how you would solve the problem manually.  
-8. Identify the promising transformations you may want to apply.  
-9. Identify extra data that would be useful (go back to "Get the Data" on page 502).  
-10. Document what you have learned.  
+8. Identify the promising transformations you may want to apply.
+9. Any feature engineering ideas? (interaction, ratios, aggregations).  
+10. Identify extra data that would be useful (go back to "Get the Data" on page 502).  
+11. Document what you have learned.
+12. optional: come up with some hypothesis tests
 
+
+## Baseline model (here or after the next section)
 
 
 ## IV. Prepare the data  
@@ -149,9 +156,11 @@ Notes:
     - Discretize continuous features.  
     - Decompose features (e.g., categorical, date/time, etc.).  
     - Add promising transformations of features (e.g., log(x), sqrt(x), x^2, etc.).
-    - Aggregate features into promising new features.  
+    - Aggregate features into promising new features (interaction, ratios, aggregations).    
 4. Feature scaling: standardize or normalize features.  
 
+
+## Baseline model (optional)
 
 
 ## V. Short-list promising models  
