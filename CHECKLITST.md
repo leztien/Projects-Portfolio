@@ -2,6 +2,7 @@
 (based on Aurélien Géron's [checklist](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md)))
 
 
+
 ## The usual "shell preparations":
 ```shell
 # setting up git
@@ -56,22 +57,23 @@ $ uvicorn main:app --reload
 
 <br>
 
-## Checklist
 
-This checklist can guide you through your Machine Learning projects. There are eight main steps:  
+### There are eight main steps:  
 
-1. Frame the problem and look at the big picture.  
-2. Get the data.  
-3. Explore the data to gain insights.  
-4. Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
-5. Explore many different models and short-list the best ones.  
-6. Fine-tune your models and combine them into a great solution.  
-7. Present your solution.  
-8. Launch, monitor, and maintain your system.  
+I.   Frame the problem and look at the big picture.  
+II.  Get the data.  
+III. Explore the data to gain insights.  
+IV.  Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
+V.   Explore many different models and short-list the best ones.  
+V b. Error Analysis
+VI.  Fine-tune your models and combine them into a great solution.  
+VII. Present your solution.  
+IIX. Launch, monitor, and maintain your system.  
 
-Obviously, you should feel free to adapt this checklist to your needs.  
+  
 
-# Frame the problem and look at the big picture  
+## I. Frame the problem and look at the big picture
+
 1. Define the objective in business terms.  
 2. How will your solution be used?  
 3. What are the current solutions/workarounds (if any)?  
@@ -85,8 +87,9 @@ Obviously, you should feel free to adapt this checklist to your needs.
 11. List the assumptions you or others have made so far.  
 12. Verify assumptions if possible.  
 
-# Get the data   
-Note: automate as much as possible so you can easily get fresh data.  
+
+
+## II. Get the data    
 
 1. List the data you need and how much you need.  
 2. Find and document where you can get that data.  
@@ -101,7 +104,10 @@ Note: automate as much as possible so you can easily get fresh data.
 11. Check the size and type of data (time series, sample, geographical, etc.).  
 12. Sample a test set, put it aside, and never look at it (no data snooping!).    
 
-# Explore the data  
+
+
+## III. Explore the data (EDA)
+
 Note: try to get insights from a field expert for these steps.  
 
 1. Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
@@ -121,7 +127,10 @@ Note: try to get insights from a field expert for these steps.
 9. Identify extra data that would be useful (go back to "Get the Data" on page 502).  
 10. Document what you have learned.  
 
-# Prepare the data  
+
+
+## IV. Prepare the data  
+
 Notes:    
 - Work on copies of the data (keep the original dataset intact).  
 - Write functions for all data transformations you apply, for five reasons:  
@@ -143,7 +152,10 @@ Notes:
     - Aggregate features into promising new features.  
 4. Feature scaling: standardize or normalize features.  
 
-# Short-list promising models  
+
+
+## V. Short-list promising models  
+
 Notes: 
 - If the data is huge, you may want to sample smaller training sets so you can train many different models in a reasonable time (be aware that this penalizes complex models such as large neural nets or Random Forests).  
 - Once again, try to automate these steps as much as possible.    
@@ -157,7 +169,9 @@ Notes:
 6. Have one or two more quick iterations of the five previous steps.
 
 
-# Error Analysis
+
+## V b. Error Analysis (see below)
+
 After evaluating the model, conduct error analysis to understand where and why the model is making mistakes.
 This step involves examining the errors made by the model on the validation or test data.
 
@@ -174,7 +188,7 @@ Short-list the top three to five most promising models, preferring models that m
 
 
 
-# Fine-Tune the System / Model Improvement 
+## VI. Fine-Tune the System / Model Improvement 
 Notes:  
 - You will want to use as much data as possible for this step, especially as you move toward the end of fine-tuning.   
 - As always automate what you can.    
@@ -191,7 +205,8 @@ Notes:
 5. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set.
 
 
-# Present your solution  
+
+## VII. Present your solution  
 1. Document what you have done.  
 2. Create a nice presentation.  
     - Make sure you highlight the big picture first.  
@@ -201,7 +216,9 @@ Notes:
     - List your assumptions and your system's limitations.  
 5. Ensure your key findings are communicated through beautiful visualizations or easy-to-remember statements (e.g., "the median income is the number-one predictor of housing prices").  
 
-# Launch!  
+
+
+## IIX. Launch!  
 1. Get your solution ready for production (plug into production data inputs, write unit tests, etc.).  
 2. Write monitoring code to check your system's live performance at regular intervals and trigger alerts when it drops.  
     - Beware of slow degradation too: models tend to "rot" as data evolves.   
@@ -210,7 +227,7 @@ Notes:
 3. Retrain your models on a regular basis on fresh data (automate as much as possible).  
 
 
-<br>
+<br><br>
 
 
 # Detailed Error Analysis (from ChatGPT):
