@@ -64,9 +64,9 @@ I.   Frame the problem and look at the big picture.
 II.  Get the data.  
 III. Explore the data to gain insights.   
 IV.  Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
-XXX. Baseline model.  
+Z.   Baseline model.  
 V.   Explore many different models and short-list the best ones.  
-V(b) Error Analysis. <br>
+Z.   Error Analysis. <br>
 VI.  Fine-tune your models and combine them into a great solution.  
 VII. Present your solution.  
 IIX. Launch, monitor, and maintain your system.  
