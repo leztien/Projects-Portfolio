@@ -62,9 +62,9 @@ $ uvicorn main:app --reload
 
 I.   Frame the problem and look at the big picture.  
 II.  Get the data.  
-III. Explore the data to gain insights.  
-XXX. Baseline model (here or after the next step).  
+III. Explore the data to gain insights.   
 IV.  Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.  
+XXX. Baseline model.  
 V.   Explore many different models and short-list the best ones.  
 V(b) Error Analysis. <br>
 VI.  Fine-tune your models and combine them into a great solution.  
