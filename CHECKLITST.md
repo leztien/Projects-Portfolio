@@ -133,9 +133,6 @@ Note: try to get insights from a field expert for these steps.
 12. optional: come up with some hypothesis tests
 
 
-## Baseline model (here or after the next section)
-
-
 ## IV. Prepare the data  
 
 Notes:    
@@ -160,7 +157,7 @@ Notes:
 4. Feature scaling: standardize or normalize features.  
 
 
-## Baseline model (optional)
+## Z. Baseline model
 
 
 ## V. Short-list promising models  
@@ -179,7 +176,7 @@ Notes:
 
 
 
-## V b. Error Analysis (see below)
+## Z. Error Analysis (see below "Detailed Error Analysis")
 
 After evaluating the model, conduct error analysis to understand where and why the model is making mistakes.
 This step involves examining the errors made by the model on the validation or test data.
