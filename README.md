@@ -7,6 +7,7 @@ for demonstration purposes for a potential employer
 - [Classification](https://github.com/leztien/portfolio-project-classification-for-german-credit-database)
 - [Linear Regression](https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction)
 - [KNN Regression](https://github.com/leztien/portfolio-project-knn-regression)
+- [Classification (ongoing)](https://github.com/leztien/portfolio-project-bank-marketing)
 
 <br>
 
