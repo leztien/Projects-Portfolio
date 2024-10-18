@@ -1,4 +1,7 @@
 # Data Science Projects Portfolio
+(for demonstration purposes for a potential employer)
+
+<br>
 
 ### Jupyter notebooks with EDA and ML modeling:
 - [Classification](https://github.com/leztien/portfolio-project-classification-for-german-credit-database)
