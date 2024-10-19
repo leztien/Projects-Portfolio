@@ -158,7 +158,7 @@ Notes:
 4. Feature scaling: standardize or normalize features.  
 
 
-## Z. Baseline model
+## 4-5. Baseline model
 
 
 ## 5. Short-list promising models  
@@ -177,7 +177,7 @@ Notes:
 
 
 
-## Z. Error Analysis (see below "Detailed Error Analysis")
+## 5-6. Error Analysis (see below "Detailed Error Analysis")
 
 After evaluating the model, conduct error analysis to understand where and why the model is making mistakes.
 This step involves examining the errors made by the model on the validation or test data.
