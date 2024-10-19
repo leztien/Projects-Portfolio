@@ -73,7 +73,7 @@ $ uvicorn main:app --reload
 
   
 
-## I. Frame the problem and look at the big picture
+## 1. Frame the problem and look at the big picture
 
 1. Define the objective in business terms.  
 2. How will your solution be used?  
@@ -90,7 +90,7 @@ $ uvicorn main:app --reload
 
 
 
-## II. Get the data    
+## 2. Get the data    
 
 1. List the data you need and how much you need.  
 2. Find and document where you can get that data.  
@@ -107,7 +107,7 @@ $ uvicorn main:app --reload
 
 
 
-## III. Explore the data (EDA)
+## 3. Explore the data (EDA)
 
 Note: try to get insights from a field expert for these steps.  
 
@@ -133,7 +133,8 @@ Note: try to get insights from a field expert for these steps.
 12. optional: come up with some hypothesis tests
 
 
-## IV. Prepare the data  
+
+## 4. Prepare the data  
 
 Notes:    
 - Work on copies of the data (keep the original dataset intact).  
@@ -160,7 +161,7 @@ Notes:
 ## Z. Baseline model
 
 
-## V. Short-list promising models  
+## 5. Short-list promising models  
 
 Notes: 
 - If the data is huge, you may want to sample smaller training sets so you can train many different models in a reasonable time (be aware that this penalizes complex models such as large neural nets or Random Forests).  
@@ -194,7 +195,7 @@ Short-list the top three to five most promising models, preferring models that m
 
 
 
-## VI. Fine-Tune the System / Model Improvement 
+## 6. Fine-Tune the System / Model Improvement 
 Notes:  
 - You will want to use as much data as possible for this step, especially as you move toward the end of fine-tuning.   
 - As always automate what you can.    
@@ -212,7 +213,7 @@ Notes:
 
 
 
-## VII. Present your solution  
+## 7. Present your solution  
 1. Document what you have done.  
 2. Create a nice presentation.  
     - Make sure you highlight the big picture first.  
@@ -224,7 +225,7 @@ Notes:
 
 
 
-## IIX. Launch!  
+## 8. Launch!  
 1. Get your solution ready for production (plug into production data inputs, write unit tests, etc.).  
 2. Write monitoring code to check your system's live performance at regular intervals and trigger alerts when it drops.  
     - Beware of slow degradation too: models tend to "rot" as data evolves.   
