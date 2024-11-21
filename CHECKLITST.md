@@ -32,6 +32,7 @@ $ pip install -r requirements.txt
 $ pip list
 $ git add .  # do not do this!
 $ git reset  # unstage all files
+$ ls -l
 $ git add README.md requirements.txt .gitignore
 $ git commit -m "my first commit"
 
