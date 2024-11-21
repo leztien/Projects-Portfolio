@@ -19,6 +19,7 @@ $ git branch -m main  # -m is ALMOST the same as -M
 $ git config --global init.defaultBranch main   # alternative to the above line - will name new branches as main
 
 $ touch .gitignore; echo -e "*.log\n.venv/\ndata/" > .gitignore
+# or write the fileas and folders to ignore in here: .git/info/exclude
 $ mkdir data src assets
 $ touch README.md requirements.txt
 $ echo "# Project" > README.md
