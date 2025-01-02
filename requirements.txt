@@ -47,7 +47,7 @@ ipywidgets  # Interactive widgets for Jupyter notebooks
 
 # SQL & Databases
 sqlalchemy  # SQL toolkit and Object-Relational Mapping
-psycopg2  # PostgreSQL adapter
+# psycopg2  # PostgreSQL adapter
 pymysql  # MySQL adapter
 
 
