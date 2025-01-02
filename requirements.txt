@@ -1,0 +1,82 @@
+# Data Manipulation
+numpy
+pandas
+scipy
+openpyxl  # Excel file reading and writing
+xlrd  # Excel file reading support (older formats)
+pyarrow  # Apache Arrow for handling large datasets
+sympy  # Symbolic mathematics
+
+
+# Visualization
+matplotlib
+seaborn
+plotly
+bokeh
+altair
+folium  # For geospatial data visualization
+ggplot  # Grammar of graphics for Python
+pillow  # Image processing
+missingno
+
+
+# Machine Learning
+statsmodels
+scikit-learn
+imbalanced-learn  # Handling imbalanced datasets
+joblib
+nltk  # Natural Language Toolkit (NLP tasks)
+spacy  # NLP tasks (tokenization, POS tagging, etc.)
+textblob  # NLP toolkit
+xgboost
+lightgbm
+catboost
+tensorflow
+keras
+torch
+torchvision
+scikit-image
+pmdarima  # Auto ARIMA for time series forecasting
+
+
+# Web Scraping & API
+requests  # HTTP requests
+urllib3  # HTTP library for Python
+lxml  # XML and HTML parsing
+beautifulsoup4  # Web scraping
+selenium
+
+
+# Jupyter
+jupyter  # install this one or...
+jupyterlab  # ...or this one , but not both
+ipykernel  # will be installed automatically
+ipywidgets  # Interactive widgets for Jupyter notebooks
+
+
+# SQL & Databases
+sqlite  # included in Python Standard Library
+sqlalchemy  # SQL toolkit and Object-Relational Mapping
+psycopg2  # PostgreSQL adapter
+pymysql  # MySQL adapter
+
+
+# File I/O
+h5py  # HDF5 file format for large datasets
+pyyaml  # For reading/writing YAML files
+jsonschema  # For JSON schema validation
+
+
+# Other Utilities
+tqdm  # Progress bars
+python-dotenv  # For loading environment variables from .env files
+pytest  # For testing Python code
+psutil  # System and process utilities
+
+
+# Geospatial Data
+geopandas  # Spatial data handling
+shapely  # Geospatial operations
+cartopy  # Map projections and visualizations
+
+
