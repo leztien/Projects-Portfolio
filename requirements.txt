@@ -23,7 +23,7 @@ missingno
 # Machine Learning
 statsmodels
 scikit-learn
-imbalanced-learn  # Handling imbalanced datasets
+imbalanced-learn  # imblearn
 joblib
 nltk  # Natural Language Toolkit (NLP tasks)
 spacy  # NLP tasks (tokenization, POS tagging, etc.)
@@ -80,3 +80,5 @@ shapely  # Geospatial operations
 cartopy  # Map projections and visualizations
 
 
+# API
+fastapi[all]
