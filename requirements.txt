@@ -1,5 +1,3 @@
-
-
 # Core scientific libraries
 cython
 numpy
@@ -49,9 +47,11 @@ lightgbm
 xgboost
 nltk
 spacy
-tensorflow
+tensorflow[and-cuda]  # verify: python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
 # Potentially problematic
-sqlalchemy
 fastapi[all]
 geopandas
+SQLAlchemy
+psycopg2-binary   # psycopg2
+asyncpg
