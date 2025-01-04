@@ -1,75 +1,57 @@
-# Data Manipulation
+
+
+# Core scientific libraries
+cython
 numpy
-pandas
 scipy
-openpyxl  # Excel file reading and writing
-pyarrow  # Apache Arrow for handling large datasets
-sympy  # Symbolic mathematics
+pandas
+sympy
 
-
-# Machine Learning
-statsmodels
-scikit-learn
-scikit-image
-imbalanced-learn  # imblearn
-joblib
-lightgbm
-xgboost
-nltk  # Natural Language Toolkit (NLP tasks)
-spacy  # NLP tasks (tokenization, POS tagging, etc.)
-tensorflow
-keras   # now included in tensorflow
-torch  # plus other torch libraries
-
-# Visualization
+# Visualization tools
 matplotlib
-pillow  # Image processing
+pillow
 seaborn
+missingno
 plotly
 bokeh
 altair
-missingno
 
+# Various tools
+python-dotenv
+pytest
+tqdm
 
-# Geospatial Data
-geopandas  # Spatial data handling
-shapely  # Geospatial operations
-folium  # For geospatial data visualization
-cartopy  # Map projections and visualizations
-
-
-# Jupyter
-jupyter  # install this one or...
-jupyterlab  # ...or this one , but not both
-ipykernel  # will be installed automatically
-ipywidgets  # Interactive widgets for Jupyter notebooks
-
-
-# SQL & Databases
-sqlalchemy  # SQL toolkit and Object-Relational Mapping
-# psycopg2  # PostgreSQL adapter
-pymysql  # MySQL adapter
-
-
-# Web Scraping & API
-requests  # HTTP requests
-urllib3  # HTTP library for Python
-beautifulsoup4  # Web scraping
+# Web Tools
+requests
+urllib3
+beautifulsoup4
 selenium
-lxml  # XML and HTML parsing
-
-
-# Other Utilities
-tqdm  # Progress bars
-python-dotenv  # For loading environment variables from .env files
-pytest  # For testing Python code
-
 
 # File I/O
-h5py  # HDF5 file format for large datasets
+openpyxl
+lxml  # XML and HTML parsing
 pyyaml  # For reading/writing YAML files
-jsonschema  # For JSON schema validation
+h5py # HDF5 file format for large datasets
 
+# Jupyter
+jupyterlab  # or jupyter, but not both
+ipywidgets  # Interactive widgets for Jupyter notebooks
 
-# API
+# ML
+statsmodels
+scikit-learn
+joblib
+scikit-image
+imbalanced-learn
+
+# Further ML/DL Tools
+lightgbm
+xgboost
+nltk
+spacy
+tensorflow
+
+# Potentially problematic
+sqlalchemy
 fastapi[all]
+geopandas
