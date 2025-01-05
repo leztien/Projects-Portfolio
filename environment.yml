@@ -1,0 +1,53 @@
+# yml file to create a new conda environment and install packages
+# conda env create -f environment.yml
+# conda env update -f environment.yml
+name: working-env
+channels:
+  - defaults
+  - conda-forge  # Conda-forge for additional packages
+dependencies:
+  - python=3.11 # to ensure compatibility with tensorflow
+  - cython
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - sympy
+  - matplotlib
+  - pillow
+  - seaborn
+  - missingno
+  - plotly
+  - bokeh
+  - altair
+  - python-dotenv
+  - pytest
+  - tqdm
+  - requests
+  - urllib3
+  - beautifulsoup4
+  - selenium
+  - openpyxl
+  - lxml
+  - pyyaml
+  - h5py
+  - jupyterlab
+  - ipywidgets
+  - spyder
+  - statsmodels
+  - scikit-learn
+  - joblib
+  - scikit-image
+  - imbalanced-learn
+  - lightgbm
+  - xgboost
+  - nltk
+  - fastapi[all]
+  - geopandas
+  - SQLAlchemy
+  - psycopg2-binary
+  - asyncpg
+  - tensorflow-gpu
+  - pip:
+    - tensorflow-hub  # Optional: TensorFlow Hub for reusable ML models
+    - tensorflow-datasets  # Optional: TensorFlow datasets for easy access to data
