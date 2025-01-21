@@ -23,6 +23,7 @@ dependencies:
   - python-dotenv
   - pytest
   - tqdm
+  - python-dateutil
   - requests
   - urllib3
   - beautifulsoup4
