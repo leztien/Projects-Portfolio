@@ -18,6 +18,7 @@ altair
 python-dotenv
 pytest
 tqdm
+python-dateutil
 
 # Web Tools
 requests
