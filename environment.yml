@@ -1,12 +1,12 @@
 # yml file to create a new conda environment and install packages
 # conda env create -f environment.yml
 # conda env update -f environment.yml
-name: py311-env
+name: py39conda-env
 channels:
   - defaults
   - conda-forge  # Conda-forge for additional packages
 dependencies:
-  - python=3.11 # to ensure compatibility with tensorflow
+  - python=3.9 # to ensure compatibility with tensorflow
   - cython
   - pip
   - numpy

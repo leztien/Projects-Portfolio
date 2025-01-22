@@ -48,8 +48,8 @@ imbalanced-learn
 lightgbm
 xgboost
 nltk
-spacy
-tensorflow[and-cuda]  # verify: python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+#spacy
+#tensorflow[and-cuda]  # verify: python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
 # Databases
 redshift-connector
