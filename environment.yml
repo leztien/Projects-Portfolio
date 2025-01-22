@@ -1,7 +1,7 @@
 # yml file to create a new conda environment and install packages
 # conda env create -f environment.yml
 # conda env update -f environment.yml
-name: working-env
+name: py311-env
 channels:
   - defaults
   - conda-forge  # Conda-forge for additional packages
@@ -17,6 +17,7 @@ dependencies:
   - pillow
   - seaborn
   - missingno
+  - dash
   - plotly
   - bokeh
   - altair
@@ -43,6 +44,8 @@ dependencies:
   - lightgbm
   - xgboost
   - nltk
+  - redshift_connector
+  - pyodbc
   - fastapi[all]
   - geopandas
   - SQLAlchemy
