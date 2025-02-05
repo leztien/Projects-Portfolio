@@ -36,6 +36,8 @@ h5py # HDF5 file format for large datasets
 # Jupyter
 jupyterlab  # or jupyter, but not both
 ipywidgets  # Interactive widgets for Jupyter notebooks
+spyder
+wheel
 
 # ML
 statsmodels
