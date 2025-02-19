@@ -54,8 +54,12 @@ nltk
 #tensorflow[and-cuda]  # verify: python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
 # Databases
-redshift-connector
+psycopg2
 pyodbc
+pymssql
+boto3
+msal
+redshift-connector
 
 # Potentially problematic
 fastapi[all]
