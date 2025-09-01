@@ -5,6 +5,7 @@ scipy
 pandas
 sympy
 
+
 # Visualization tools
 matplotlib
 pillow
@@ -15,11 +16,13 @@ plotly
 bokeh
 altair
 
+
 # Various tools
 python-dotenv
 pytest
 tqdm
 python-dateutil
+
 
 # Web Tools
 requests
@@ -27,17 +30,20 @@ urllib3
 beautifulsoup4
 selenium
 
+
 # File I/O
 openpyxl
 lxml  # XML and HTML parsing
 pyyaml  # For reading/writing YAML files
 h5py # HDF5 file format for large datasets
 
+
 # Jupyter
 jupyterlab  # or jupyter, but not both
 ipywidgets  # Interactive widgets for Jupyter notebooks
 spyder
 wheel
+
 
 # ML
 statsmodels
@@ -46,6 +52,7 @@ joblib
 scikit-image
 imbalanced-learn
 
+
 # Further ML/DL Tools
 lightgbm
 xgboost
@@ -53,17 +60,22 @@ nltk
 #spacy
 #tensorflow[and-cuda]  # verify: python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
-# Databases
-psycopg2
-pyodbc
-pymssql
-boto3
-msal
-redshift-connector
+
+# Database drivers
+psycopg2            # psycopg2-binary
+pyodbc              # ODBC driver
+pymssql             # pymssql==2.2.7 #OR !conda install -y -c conda-forge pymssql
+redshift-connector  # Amazon Redshift driver
+
+# Cloud and auth libraries
+boto3              # AWS SDK for Python
+msal               # Microsoft Authentication Library
+
+# ORM / Abstraction
+SQLAlchemy         # SQL toolkit & ORM
+
 
 # Potentially problematic
 fastapi[all]
 geopandas
-SQLAlchemy
-psycopg2-binary   # psycopg2
 asyncpg
