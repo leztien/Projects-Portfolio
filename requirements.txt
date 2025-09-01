@@ -6,6 +6,13 @@ pandas
 sympy
 
 
+# File I/O
+openpyxl # to load excel files in pandas
+lxml     # XML and HTML parsing
+pyyaml   # For reading/writing YAML files
+h5py     # HDF5 file format for large datasets
+
+
 # Visualization tools
 matplotlib
 pillow
@@ -29,13 +36,6 @@ requests
 urllib3
 beautifulsoup4
 selenium
-
-
-# File I/O
-openpyxl
-lxml  # XML and HTML parsing
-pyyaml  # For reading/writing YAML files
-h5py # HDF5 file format for large datasets
 
 
 # Jupyter
